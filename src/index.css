@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: white;
+  background:url(assets/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+#root {
+   margin-top: 55px;
+   max-width: 50%;
+   
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #242424;
+   border-radius: 22px;
+
+}
+
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 22px;
+  background-color: #111113;
+
+}
+
+.nav >img{
+  width: 27px;
+}
+
+.nav >h1{
+  color: #61DAFB;
+  font-size: 25px;
+  padding-left: 3px;
+}
+
+.flex--end{
+  display: flex;
+  margin-left: 39%;
+  
+  
+}
+
+.flex--end >p{
+  font-size: 15px;
+}
+
+
+.head{
+  
+  background-color: #282D35;
+  
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+  background: url(assets/Picsart_24-09-08_14-39-39-572.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position:right 75%;
+
+}
+
+.head >h1{
+  font-size: 36px;
+}
+
+.head >ul{
+  padding-left: 35px;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.head >ul>li{
+  color: #d6d0d0;
+  font-size: 22px;
+  line-height: 47px;
+}
+
+li::marker{
+ 
+  font-size: 29px;
+  color: #61DAFB
+}
+
